@@ -1,0 +1,9 @@
+extends layout 
+
+block content
+    a(href='/notes/new') Agregar nota
+    each note in notes
+        div     
+            h2 #{note.id} - #{note.title} 
+            p #{note.body}
+

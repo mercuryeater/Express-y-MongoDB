@@ -1,0 +1,17 @@
+extends layout 
+
+block content 
+    h1 Nueva nota
+    form(action="/notes", method="post")
+        div
+            div
+                label(for="title") Titulo 
+            input(type="text", id="title", name="title")
+    
+        div 
+            div
+                label(for="body") Texto
+            textarea(id="body", name="body")
+       
+        button(type="submit") Enviar
+    

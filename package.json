@@ -9,6 +9,8 @@
   "author": "Federico Cordoba",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.18.2"
+    "cookie-session": "^2.0.0",
+    "express": "^4.18.2",
+    "pug": "^3.0.2"
   }
 }
